@@ -3,6 +3,6 @@ const findMe = () => {
     let information = Myplaces.coords;
     locationLatitude = Math.round(information.latitude);
     locationLongitude = Math.round(information.longitude);
-    display.innerHTML = `<p>your location is : ${locationLatitude}N and ${locationLongitude}E</p>`
+    display.innerHTML = `<h3>your location is : ${locationLatitude}N and ${locationLongitude}E</h3>`
   })
 }
